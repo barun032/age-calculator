@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: rgb(116, 176, 216);
+    padding: 12%;
+}
+
+h1 {
+    color: #fff;
+}
+
+h1 span {
+    color: yellow;
+}
+
+.input-box {
+    background-color: aqua;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgba(255, 255, 0, 0.171);
+}
+
+.input-box input {
+    height: 35px;
+    width: 250px;
+    padding: 0px 7px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.input-box button {
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: yellow;
+    cursor: pointer;
+}
+#showAge{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
